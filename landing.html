@@ -1,0 +1,68 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
+</script>
+  </head>
+  <body>
+    <div class="slide-in">
+      <div class="bg-1"></div>
+      <div class="bg-2"></div>
+      <div class="bg-3"></div>
+    </div>
+    <div class="img-container">
+
+    </div>
+    <div class="videosList">      
+           
+        <div class="video">
+            <video class="thevideo" loop preload="none" style="background:url('https://cdn77-pic.xvideos-cdn.com/videos/thumbs169ll/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2/ba2adb44413bd37fa6ef84b93f5afdb2.2.jpg') no-repeat center center/cover">
+              <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2_169.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" style="background:url('https://cdn77-pic.xvideos-cdn.com/videos/thumbs169ll/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2/ba2adb44413bd37fa6ef84b93f5afdb2.2.jpg') no-repeat center center/cover">
+              <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2_169.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" style="background:url('https://cdn77-pic.xvideos-cdn.com/videos/thumbs169ll/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2/ba2adb44413bd37fa6ef84b93f5afdb2.2.jpg') no-repeat center center/cover">
+              <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2_169.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" style="background:url('https://cdn77-pic.xvideos-cdn.com/videos/thumbs169ll/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2/ba2adb44413bd37fa6ef84b93f5afdb2.2.jpg') no-repeat center center/cover">
+              <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/ba/2a/db/ba2adb44413bd37fa6ef84b93f5afdb2_169.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+    </div>
+    
+      <!-- <div class="fix-bottom">
+        <img src="img/model-trans-1.png" alt="">
+        <img src="img/model-trans-2.png" alt="">
+        <img src="img/model-trans-3.png" alt="">
+      </div> -->
+        <script>
+
+            var figure = $(".video").hover(hoverVideo, hideVideo);
+
+                function hoverVideo(e) {
+                    $('video', this).get(0).play();
+                }
+
+                function hideVideo(e) {
+                    $('video', this).get(0).pause();
+                }
+
+        </script>
+  </body>
+</html>
